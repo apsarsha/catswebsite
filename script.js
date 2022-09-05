@@ -98,7 +98,7 @@ function CreateRegionLink(region) {
         const regionNameclick = createCatslist.filter(
             (breeds) => breeds.origin === region
         );
-        createCatsCards(catscatscatsregionNameclick);
+        createCatsCards(regionNameclick);
     })
 
 }
